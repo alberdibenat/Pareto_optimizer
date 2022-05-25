@@ -1,0 +1,19 @@
+&INPUT
+	FNAME = 'generator000000.ini'
+	Add = FALSE, N_add = 0,
+	IPart = 30000, Species = 'electrons'
+	Probe = True, Noise_reduc = T, Cathode = T
+	Q_total = 0.001792   !77E-3
+
+	Ref_zpos = 0.0E0, Ref_Ekin = 0.0
+
+ 	Dist_z = 'gauss', sig_clock = 0.004805 !0.001
+
+	Dist_pz = 'i', 	LE=0.241e-3
+
+	Dist_x = 'r', sig_x = 0.149679,  !1.0E0, 
+	Dist_px = 'g'
+
+	Dist_y = 'r', sig_y = 0.149679, !1.0E0,
+	Dist_py = 'g'
+/
